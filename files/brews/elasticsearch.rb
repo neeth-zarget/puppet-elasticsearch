@@ -2,9 +2,9 @@ require "formula"
 
 class Elasticsearch < Formula
   homepage "http://www.elastic.co"
-  url "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.1.tar.gz"
-  sha256 "86a0c20eea6ef55b14345bff5adf896e6332437b19180c4582a346394abde019"
-  version '1.7.1-boxen1'
+  url "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.1/elasticsearch-2.3.1.tar.gz"
+  sha256 "f0092e73038e0472fcdd923e5f2792e13692ea0f09ca034a54dd49b217110ebb"
+  version '2.3.1-boxen1'
 
   head do
     url "https://github.com/elastic/elasticsearch.git"
